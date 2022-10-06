@@ -14,3 +14,12 @@
 .st13{fill:#FBE5E2;}
 .st14{fill:#A68469;}
 .st15{fill:#976F50;}
+
+
+.eye::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translate(-50%, -50%);
+}
